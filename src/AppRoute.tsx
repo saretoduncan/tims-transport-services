@@ -10,9 +10,9 @@ function AppRoute() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/aboutUs" element={<AboutPage />} />
+        <Route path="/aboutus" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
-        <Route path="/contactUs" element={<ContactsPage />} />
+        <Route path="/contactus" element={<ContactsPage />} />
       </Routes>
     </>
   );
