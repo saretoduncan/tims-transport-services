@@ -1,5 +1,11 @@
 function HomePage() {
-  return <div className="text-green-400">HomePage</div>;
+  return (
+    <>
+      <div className="">
+        
+      </div>
+    </>
+  );
 }
 
 export default HomePage;
