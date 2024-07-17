@@ -3,28 +3,29 @@ type NavlinkProps = {
   linkName: string;
   linkTo: string;
   customClass: string;
-  handleSideNav?:()=>void
+  handleSideNav?: () => void;
 };
 const NavLinks: React.FC<NavlinkProps> = ({
   linkName,
   linkTo,
   customClass: customClass,
-  handleSideNav
+  handleSideNav,
 }) => {
   const location = useLocation().pathname;
-  const handleSideNavClick=()=>{
-    if(handleSideNav!==undefined){
-      handleSideNav()
+  const handleSideNavClick = () => {
+    if (handleSideNav !== undefined) {
+      handleSideNav();
     }
-  }
+  };
   return (
     <Link
-      className={` font-bold w-full md:text-lg p-2 rounded-md   md:bg-inherit md:p-0 md:rounded-none ${
+      className={` font-bold w-full md:w-auto md:text-lg p-2 rounded-md   md:bg-inherit md:p-0 md:rounded-none ${
         linkTo === location
           ? "text-white bg-orange-500 md:text-orange-500 md:bg:inherit "
           : "text-black bg:inherit"
-      }`}
-      to={linkTo} onClick={()=>handleSideNavClick()}
+      } ${customClass}`}
+      to={linkTo}
+      onClick={() => handleSideNavClick()}
     >
       {linkName}
     </Link>

@@ -23,21 +23,21 @@ const Sidebar: React.FC<sideNavProps> = ({
         />
 
         <NavLinks
-          customClass={"text-black"}
+          customClass={""}
           linkTo={navLinkData.aboutPage.to}
           linkName={navLinkData.aboutPage.label}
           handleSideNav={handleSideNav}
         />
 
         <NavLinks
-          customClass={"text-black"}
+          customClass={""}
           linkTo={navLinkData.servicesPage.to}
           linkName={navLinkData.servicesPage.label}
           handleSideNav={handleSideNav}
         />
 
         <NavLinks
-          customClass={"text-black"}
+          customClass={""}
           linkTo={navLinkData.contactsPage.to}
           linkName={navLinkData.contactsPage.label}
           handleSideNav={handleSideNav}
