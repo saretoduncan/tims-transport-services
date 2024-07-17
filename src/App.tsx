@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="relative">
+        <div className="relative grid">
           <nav className="bg-gray-100 md:h-[10vh] h-[8vh] flex items-center absolute w-full top-0 z-[100]">
             <div className=" w-full mx-6 2xl:container 2xl:mx-auto">
               <Navbar handleSidebarOpenClick={handleSidebarOpen} />
@@ -35,9 +35,9 @@ function App() {
               handleSideNavOpenClick={handleSidebarOpen}
             />
           </section>
-          <main>
+          <section className="mt-[8vh] md:mt-[10vh] ">
             <AppRoute />
-          </main>
+          </section>
         </div>
       </BrowserRouter>
     </>
