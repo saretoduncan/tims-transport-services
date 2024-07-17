@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require('tailwindcss/plugin')
+const plugin = require("tailwindcss/plugin");
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -12,15 +12,20 @@ export default {
         DEFAULT: "0 2px 4px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
       },
-      animation:{
-        'text-reveal':'text-reveal 0.5s ease-in-out forwards',
+      animation: {
+        "text-reveal": "text-reveal 0.5s ease-in-out forwards",
+        "fade-in": "fade-in 0.5s ease-out",
       },
-      keyframes:{
-        'text-reveal':{
-          '0%':{opacity:'0', transform:'translateY(100%)'},
-          '100%':{opacity:'1',transform:'translateY(0)'}
-        }
-      }
+      keyframes: {
+        "text-reveal": {
+          "0%": { opacity: "0", transform: "translateY(100%)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
     },
   },
   plugins: [
