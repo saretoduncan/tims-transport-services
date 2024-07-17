@@ -49,7 +49,7 @@ function Courousel() {
             />
             <PrimaryLink
               linkName="Contact us"
-              linkTo="tel:+254715691186"
+              linkTo={navLinkData.contactsPage.to}
               className="bg-white text-orange-500"
             />
           </section>

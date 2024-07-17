@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import { IoChevronForward } from "react-icons/io5";
-
 type featuresCardProps = {
   featureImg: string;
   featureTitle: string;
@@ -10,7 +7,6 @@ const FeaturesCard: React.FC<featuresCardProps> = ({
   featureImg,
   featureTitle,
   featureCaption,
- 
 }) => {
   return (
     <>
@@ -20,9 +16,7 @@ const FeaturesCard: React.FC<featuresCardProps> = ({
           style={{
             backgroundImage: "url(" + "'" + featureImg + "'" + ")",
           }}
-        >
-      
-        </div>
+        ></div>
 
         <figcaption className="px-2 ">
           <div className="w-8 h-1 bg-orange-500"></div>
