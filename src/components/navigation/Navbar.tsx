@@ -11,7 +11,7 @@ const Navbar: React.FC<navbarProps> = ({ handleSidebarOpenClick }) => {
   return (
     <>
       <div className="flex justify-between items-center">
-        <section className="self-center py-1">
+        <section className="self-center ">
           <img src={logo} alt="" className="md:size-[60px] size-[40px] " />
         </section>
         <section className=" hidden md:flex md:space-x-4 items-center">

@@ -1,5 +1,6 @@
 import Courousel from "../components/homePageComponent/Courousel";
 import FeaturesSection from "../components/homePageComponent/FeaturesSection";
+import WhyChooseUs from "../components/homePageComponent/WhyChooseUs";
 
 function HomePage() {
   return (
@@ -10,6 +11,9 @@ function HomePage() {
         </section>
         <section>
           <FeaturesSection />
+        </section>
+        <section>
+          <WhyChooseUs/>
         </section>
       </div>
     </>
