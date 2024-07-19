@@ -3,6 +3,7 @@ import AppRoute from "./AppRoute";
 import Navbar from "./components/navigation/Navbar";
 import Sidebar from "./components/navigation/Sidebar";
 import { useEffect, useState } from "react";
+import FooterComponent from "./components/footer/FooterComponent";
 
 function App() {
   const [isSideBarOpen, setSideBarOpen] = useState(false);
@@ -26,8 +27,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="relative grid min-h-[100vh]">
-          <div>
+        <div className="relative flex flex-col justify-between min-h-[100vh]">
+          <section>
             <nav
               className={`${
                 isNavFull
@@ -49,10 +50,13 @@ function App() {
                 handleSideNavOpenClick={handleSidebarOpen}
               />
             </section>
-            <section className="mt-[8vh]  md:mt-[0] ">
+            <main className="mt-[8vh]  md:mt-[0] ">
               <AppRoute />
-            </section>
-          </div>
+            </main>
+          </section>
+          <footer>
+            <FooterComponent />
+          </footer>
         </div>
       </BrowserRouter>
     </>
