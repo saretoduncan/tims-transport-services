@@ -1,3 +1,4 @@
+import CallToAction from "../components/homePageComponent/CallToAction";
 import Courousel from "../components/homePageComponent/Courousel";
 import FeaturesSection from "../components/homePageComponent/FeaturesSection";
 import WhyChooseUs from "../components/homePageComponent/WhyChooseUs";
@@ -14,6 +15,9 @@ function HomePage() {
         </section>
         <section>
           <WhyChooseUs/>
+        </section>
+        <section>
+          <CallToAction/>
         </section>
       </div>
     </>

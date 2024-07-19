@@ -1,6 +1,6 @@
 import workWithImg from "../../assets/why_choose_us.webp";
 import managerTruck from "../../assets/managertrack.webp";
-import scaniaTruck from "../../assets/scania.webp"
+import scaniaTruck from "../../assets/scania.webp";
 import { FaCube } from "react-icons/fa";
 import PrimaryLink from "../buttons/PrimaryLink";
 import { navLinkData } from "../navigation/NavLinkData";
@@ -12,7 +12,9 @@ const WhyChooseUs = () => {
           <div className="grid  space-y-4">
             <section className="space-y-2">
               <section>
-                <h4 className="text-3xl font-bold ">Why Choose Us</h4>
+                <h4 className="text-3xl font-bold xl:text-4xl">
+                  Why Choose Us
+                </h4>
               </section>
               <section>
                 <p>
@@ -26,7 +28,7 @@ const WhyChooseUs = () => {
 
             <section className="grid space-y-4 xl:grid-cols-2 xl:space-y-0 xl:gap-4">
               <section>
-                <h6 className="text-xl font-bold">Reliable</h6>
+                <h6 className=" font-bold">Reliable</h6>
                 <p>
                   With our extensive expensive experience in servicing mine
                   sites and remote areas, you can trust us to handle your
@@ -34,7 +36,7 @@ const WhyChooseUs = () => {
                 </p>
               </section>
               <section>
-                <h6 className="text-xl font-bold">Efficience</h6>
+                <h6 className="font-bold">Efficience</h6>
                 <p>
                   Our modern fleet of prime movers and side tipper trailers
                   ensures efficient transportation of your goods.
@@ -61,7 +63,7 @@ const WhyChooseUs = () => {
           <div className="grid  space-y-4 md:self-center">
             <section className="space-y-2">
               <section>
-                <h4 className="text-2xl font-bold ">
+                <h4 className="text-2xl font-bold xl:text-4xl ">
                   <span>
                     <FaCube />
                   </span>
@@ -92,7 +94,7 @@ const WhyChooseUs = () => {
           <div className="grid  space-y-4 md:self-center">
             <section className="space-y-2">
               <section>
-                <h4 className="text-2xl font-bold ">
+                <h4 className="text-2xl font-bold capitalize xl:text-4xl">
                   Delivering quality transport solutions for your needs
                 </h4>
               </section>
@@ -106,14 +108,14 @@ const WhyChooseUs = () => {
             </section>
             <section className="grid space-y-4 md:grid-cols-2 md:space-y-0 md:gap-2 xl:gap-4">
               <section>
-                <h6 className="text-xl font-bold text-orange-500">90%</h6>
+                <h6 className="text-3xl font-bold text-orange-500">90%</h6>
                 <p>
                   completed projects:
-                  <span className="text-orange-500">300+</span>
+                  <span className="text-orange-500 font-bold">300+</span>
                 </p>
               </section>
               <section>
-                <h6 className="text-xl font-bold text-orange-500">95%</h6>
+                <h6 className="text-3xl font-bold text-orange-500">95%</h6>
                 <p>Customer satisfaction rates: Excellent.</p>
               </section>
             </section>
