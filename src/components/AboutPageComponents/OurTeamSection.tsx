@@ -23,12 +23,12 @@ const OurTeamSection = () => {
         />
         <TeamComponent
           imgSrc={jackcline}
-          name="Timothy K. Boit"
+          name="Jackline Jeruto"
           title="Office Administrator"
         />
         <TeamComponent
           imgSrc={sareto}
-          name="Timothy K. Boit"
+          name="Isaac K. Sareto"
           title="Driver Manager"
         />
       </section>
