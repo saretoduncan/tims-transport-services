@@ -4,7 +4,7 @@ import { navLinkData } from "../navigation/NavLinkData";
 const CallToAction = () => {
   return (
     <div
-      className="w-full h-[200px] bg-cover bg-bottom"
+      className="max-w-[1280px] mx-auto h-[200px] bg-cover bg-bottom"
       style={{
         backgroundImage: "url(" + "'" + business_call + "'" + ")",
       }}
