@@ -32,16 +32,16 @@ function App() {
             <nav
               className={`${
                 isNavFull
-                  ? "md:bg-gray-100 md:top-0"
-                  : "md:bg-transparent md:top-4"
-              } md:transition-all duration-300 ease-in-out bg-gray-100 md:h-[10vh] h-[8vh] flex items-center fixed w-full top-0 z-[100]`}
+                  ? "bg-gray-100 top-0"
+                  : "bg-transparent md:top-4"
+              } transition-all duration-300 ease-in-out bg-gray-100 md:min-h-[10vh] min-h-[8vh] flex items-center fixed w-full top-0 z-[100]`}
             >
-              <div className=" rounded w-full md:w-[85vw] mx-auto bg-gray-100 px-2 2xl:container 2xl:mx-auto">
-                <Navbar handleSidebarOpenClick={handleSidebarOpen} />
+              <div className=" rounded w-full md:w-[85vw] mx-auto bg-transparent px-2 2xl:container 2xl:mx-auto">
+                <Navbar handleSidebarOpenClick={handleSidebarOpen} isFullNav={isNavFull}/>
               </div>
             </nav>
             <section
-              className={`min-h-[100vh] bg-gray-100 fixed w-full top-0 bottom-0 z-[90] md:hidden transform-all ease-in-out duration-500 ${
+              className={`min-h-[100vh] bg-gray-100 fixed w-full top-0 bottom-0 z-[90] lg:hidden transform-all ease-in-out duration-500 ${
                 isSideBarOpen ? "translate-y-100" : "translate-y-[-100%]"
               }`}
             >
@@ -50,7 +50,7 @@ function App() {
                 handleSideNavOpenClick={handleSidebarOpen}
               />
             </section>
-            <main className="mt-[8vh]  md:mt-[0] ">
+            <main className="mt-[0]  md:mt-[0] ">
               <AppRoute />
             </main>
           </section>

@@ -19,10 +19,10 @@ const NavLinks: React.FC<NavlinkProps> = ({
   };
   return (
     <Link
-      className={` font-bold w-full md:w-auto md:text-lg p-2 rounded-md   md:bg-inherit md:p-0 md:rounded-none ${
+      className={` font-bold w-full text-shadow-sm shadow-black md:w-auto md:text-lg p-2 rounded-md   md:bg-inherit md:p-0 md:rounded-none ${
         linkTo === location
           ? "text-white bg-orange-500 md:text-orange-500 md:bg:inherit "
-          : "text-black bg:inherit"
+          : "text-gray-500 bg:inherit"
       } ${customClass}`}
       to={linkTo}
       onClick={() => handleSideNavClick()}
