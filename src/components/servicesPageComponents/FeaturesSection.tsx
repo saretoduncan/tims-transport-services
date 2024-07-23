@@ -1,8 +1,8 @@
-import { SiNike } from "react-icons/si";
+import quaryTrack from "../../assets/quarytrack.webp";
 import transitTruck from "../../assets/transist.webp";
 import civilTruck from "../../assets/civiltracks.webp";
 
-import highWayScannia from "../../assets/highwaytrack.webp";
+import highWayScannia from "../../assets/highway_truck_sand.webp";
 const FeaturesSection = () => {
   return (
     <>
@@ -12,49 +12,23 @@ const FeaturesSection = () => {
             <section className="space-y-2 ">
               <div className="h-2 w-6 bg-orange-500"></div>
               <section>
-                <h4 className="text-3xl font-bold xl:text-4xl">Bulk Haulage</h4>
+                <h4 className="text-3xl font-bold xl:text-4xl">Long Haulage</h4>
               </section>
               <section className="">
                 <p>
-                  We transport materials such as sand, gravel, grains, and mulch
-                  to construction sites and other locations.
+                  Tim's Transport Services offers reliable long-haul trucking
+                  across all cities of Australia, providing exceptional service
+                  with a focus on safety and timeliness. Our experienced team
+                  ensures that your shipments are delivered securely and on
+                  schedule, no matter the distance. We handle extensive routes
+                  with the utmost care, leveraging our state-of-the-art
+                  equipment and logistics expertise to meet your transportation
+                  needs. Whether you’re moving goods across cities or regions,
+                  you can count on us for efficient and effective long-haul
+                  solutions. Trust Tim's Transport Services to deliver your
+                  freight reliably and punctually every time.
                 </p>
               </section>
-            </section>
-            <section className="">
-              <h6 className=" font-bold capitalize">Key features</h6>
-              <ul className=" list-inside">
-                <li className="flex">
-                  <span>
-                    <SiNike className="text-orange-500 text-lg" />
-                  </span>{" "}
-                  Reliable, timely deliveries
-                </li>
-                <li className="flex">
-                  <span>
-                    <SiNike className="text-orange-500 text-lg" />
-                  </span>{" "}
-                  Modern, well-maintained fleet
-                </li>
-                <li className="flex">
-                  <span>
-                    <SiNike className="text-orange-500 text-lg" />
-                  </span>{" "}
-                  Experienced, professional drivers
-                </li>
-                <li className="flex">
-                  <span>
-                    <SiNike className="text-orange-500 text-lg" />
-                  </span>{" "}
-                  Customized logistics solutions
-                </li>
-                <li className="flex">
-                  <span>
-                    <SiNike className="text-orange-500 text-lg" />
-                  </span>{" "}
-                  Extensive coverage across Western Australia
-                </li>
-              </ul>
             </section>
           </div>
           <div
@@ -78,22 +52,22 @@ const FeaturesSection = () => {
               <section>
                 <div className="h-2 w-6 bg-orange-500"></div>
                 <h4 className="text-2xl font-bold xl:text-4xl ">
-                  Reliable Haulage Solutions for Mine Sites and Remote Areas
+                  Short Haulage
                 </h4>
               </section>
               <section>
                 <p>
-                  We specialize in meeting the haulage needs of mine sites and
-                  remote areas with professionalism and care. Our experienced
-                  team ensures safe and timely deliveries, using a modern fleet
-                  of prime movers and side tipper trailers. We understand the
-                  unique challenges of operating in remote locations and are
-                  committed to providing customized logistics solutions tailored
-                  to each client's needs. Whether transporting sand, gravel,
-                  grains, or mulch, we prioritize safety, reliability, and
-                  efficiency in every job. Serving Western Australia and beyond,
-                  we pride ourselves on our ability to handle the most demanding
-                  logistics requirements with expertise and dedication.
+                  No job is too small for us! At Tim's Transport Services, based
+                  in Western Australia, we specialize in short-haul trucking
+                  that is safe, convenient, and cost-effective. Our team is
+                  dedicated to handling all your short-haul needs with the
+                  highest standards of safety and efficiency. Whether you have a
+                  single delivery or require multiple trips, we ensure that
+                  every job is completed promptly and within budget. With Tim's
+                  Transport Services, you can count on reliable transportation
+                  solutions that meet your specific requirements. Trust us to
+                  deliver your goods safely and economically across Western
+                  Australia.
                 </p>
               </section>
             </section>
@@ -107,49 +81,33 @@ const FeaturesSection = () => {
               <section>
                 <div className="h-2 w-6 bg-orange-500"></div>
                 <h4 className="text-2xl font-bold capitalize xl:text-4xl">
-                  Comprehensive Civil Project Solutions
+                  Mining and Reginal Transport
                 </h4>
               </section>
               <section>
                 <p>
-                  Tim’s Transport Services provides comprehensive solutions for
-                  civil projects. Our offerings include:
+                  Tim's Transport Services excels in mining logistics and
+                  regional transport across Australia, providing top-tier
+                  expertise and reliability for every job. We specialize in
+                  transporting essential materials such as sand, gravel, and
+                  mulch, ensuring that your projects are supplied with the
+                  highest quality resources. Our dedicated team manages complex
+                  logistics with precision, catering to both mining operations
+                  and regional needs with unmatched efficiency. Whether you
+                  require bulk material delivery or intricate regional
+                  transport, Tim's Transport Services is your trusted partner
+                  for dependable solutions that meet all your mining and
+                  material transport needs throughout Australia. Tim’s Transport
+                  Services provides comprehensive solutions for civil projects.
+                  Our offerings include:
                 </p>{" "}
-                <ul className=" list-inside">
-                  <li className="flex">
-                    <span>
-                      <SiNike className="text-orange-500 text-lg" />
-                    </span>{" "}
-                    Road Construction: Building new roads with precision and
-                    efficiency.
-                  </li>
-                  <li className="flex">
-                    <span>
-                      <SiNike className="text-orange-500 text-lg" />
-                    </span>{" "}
-                    Road Maintenance: Ensuring roads are safe and
-                    well-maintained.
-                  </li>
-                  <li className="flex">
-                    <span>
-                      <SiNike className="text-orange-500 text-lg" />
-                    </span>{" "}
-                    Civil and Bulk Haulage: Transporting materials necessary for
-                    civil engineering projects.
-                  </li>
-                </ul>
-                <p>
-                  Our experienced team and modern fleet ensure that all civil
-                  services are carried out to the highest standards, meeting the
-                  unique needs of each project.
-                </p>
               </section>
             </section>
           </div>{" "}
           <div
             className="bg-cover bg-center md:bg-bottom bg-no-repeat h-[300px] rounded self-center"
             style={{
-              backgroundImage: "url(" + "'" + civilTruck + "'" + ")",
+              backgroundImage: "url(" + "'" + quaryTrack + "'" + ")",
             }}
           ></div>
         </div>

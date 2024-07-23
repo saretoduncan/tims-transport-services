@@ -1,11 +1,11 @@
-import quaryTruck from "../../assets/quarytrack.webp";
+import highwaytruck from "../../assets/highway_truck_sand.webp";
 const HeroSection = () => {
   return (
     <div
       className={`relative h-[350px] md:h-[400px] lg:h-[600px]  overflow-hidden bg-cover bg-center 
   }`}
       style={{
-        backgroundImage: "url(" + "'" + quaryTruck + "'" + ")",
+        backgroundImage: "url(" + "'" + highwaytruck + "'" + ")",
       }}
     >
       {" "}

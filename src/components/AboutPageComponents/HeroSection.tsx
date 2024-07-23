@@ -1,11 +1,11 @@
-import highWayScannia from "../../assets/highwaytrack.webp";
+import quaryTruck from "../../assets/quarytrack.webp";
 const HeroSection = () => {
   return (
     <div
       className={`relative h-[350px] md:h-[400px] lg:h-[600px]  overflow-hidden bg-cover bg-center 
   }`}
       style={{
-        backgroundImage: "url(" + "'" + highWayScannia + "'" + ")",
+        backgroundImage: "url(" + "'" + quaryTruck + "'" + ")",
       }}
     >
       {" "}

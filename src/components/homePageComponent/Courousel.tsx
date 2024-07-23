@@ -1,6 +1,6 @@
 import transitImg from "../../assets/transist.webp";
 import quaryTrack from "../../assets/quarytrack.webp";
-import highWayScannia from "../../assets/highwaytrack.webp";
+import highWayScannia from "../../assets/highway_truck_sand.webp";
 
 import { navLinkData } from "../navigation/NavLinkData";
 import PrimaryLink from "../buttons/PrimaryLink";
@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 function Courousel() {
   const [currentBg, setCurrentBg] = useState(0);
 
-  const corouselBgImg = [transitImg, quaryTrack, highWayScannia];
+  const corouselBgImg = [transitImg, highWayScannia, quaryTrack];
   const handleNextImage = () => {
     setCurrentBg((prevImg) => (prevImg + 1) % corouselBgImg.length);
   };
