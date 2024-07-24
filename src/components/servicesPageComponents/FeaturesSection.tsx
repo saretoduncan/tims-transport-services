@@ -97,9 +97,7 @@ const FeaturesSection = () => {
                   require bulk material delivery or intricate regional
                   transport, Tim's Transport Services is your trusted partner
                   for dependable solutions that meet all your mining and
-                  material transport needs throughout Australia. Tim’s Transport
-                  Services provides comprehensive solutions for civil projects.
-                  Our offerings include:
+                  material transport needs throughout Australia.
                 </p>{" "}
               </section>
             </section>

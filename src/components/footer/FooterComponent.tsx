@@ -44,7 +44,7 @@ const FooterComponent = () => {
                 <MdAlternateEmail /> <p>Info@timstransportservices.com</p>
               </li>
               <li className="flex items-center space-x-2 font-bold">
-                <FaPhoneAlt /> <p>+64 416 595 734</p>
+                <FaPhoneAlt /> <p>+61 416 595 734</p>
               </li>
             </ul>
           </section>

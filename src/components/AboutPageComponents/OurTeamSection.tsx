@@ -29,7 +29,7 @@ const OurTeamSection = () => {
         <TeamComponent
           imgSrc={sareto}
           name="Isaac K. Sareto"
-          title="Driver Manager"
+          title="Transport Manager"
         />
       </section>
     </div>  </div>

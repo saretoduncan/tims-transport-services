@@ -6,7 +6,7 @@ const AboutUsSection = () => {
         <h3 className="capitalize font-bold  text-4xl ">Who are we</h3>
       </div>
 
-      <article>
+      <article className="text-gray-700">
         Tim’s Transport Services is a family-owned Australian bulk hauling
         company committed to providing efficient and high-quality transport and
         logistics solutions. With years of experience in servicing mine sites
