@@ -1,11 +1,11 @@
-import highWayScannia from "../../assets/highwaytrack.webp";
+import quaryTruck from "../../assets/quarytrack.webp";
 const HeroSection = () => {
   return (
     <div
-      className={`relative min-h-[20vh] md:min-h-[30vh] lg:min-h-[40vh]  overflow-hidden bg-cover bg-center 
+      className={`relative h-[350px] md:h-[400px] lg:h-[600px]  overflow-hidden bg-cover bg-center 
   }`}
       style={{
-        backgroundImage: "url(" + "'" + highWayScannia + "'" + ")",
+        backgroundImage: "url(" + "'" + quaryTruck + "'" + ")",
       }}
     >
       {" "}
@@ -14,7 +14,7 @@ const HeroSection = () => {
        absolute bg-[#00000090]"
       >
         <section className="text-white   mt-4    ">
-          <h1 className="capitalize text-2xl md:text-3xl xl:text-4xl   font-bold text-shadow shadow-black">
+          <h1 className="capitalize text-2xl md:text-3xl xl:text-6xl   font-bold text-shadow shadow-black">
             About us: Efficiency at the core
           </h1>
           <h1 className="capitalize text-sm md:text-lg text-shadow shadow-black font-semibold animate-text-reveal">

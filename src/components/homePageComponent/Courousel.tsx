@@ -1,6 +1,6 @@
 import transitImg from "../../assets/transist.webp";
 import quaryTrack from "../../assets/quarytrack.webp";
-import highWayScannia from "../../assets/highwaytrack.webp";
+import highWayScannia from "../../assets/highway_truck_sand.webp";
 
 import { navLinkData } from "../navigation/NavLinkData";
 import PrimaryLink from "../buttons/PrimaryLink";
@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 function Courousel() {
   const [currentBg, setCurrentBg] = useState(0);
 
-  const corouselBgImg = [transitImg, quaryTrack, highWayScannia];
+  const corouselBgImg = [transitImg, highWayScannia, quaryTrack];
   const handleNextImage = () => {
     setCurrentBg((prevImg) => (prevImg + 1) % corouselBgImg.length);
   };
@@ -22,7 +22,7 @@ function Courousel() {
 
   return (
     <div
-      className={`relative min-h-[40vh] md:min-h-[60vh] xl:min-h-[80vh] overflow-hidden bg-cover bg-center transform  animate-fade-in transition-all duration-1000 ease-in-out ${
+      className={`relative h-[350px] md:h-[400px] lg:h-[600px] overflow-hidden bg-cover bg-center transform  animate-fade-in transition-all duration-1000 ease-in-out ${
         "bg-[url(" + corouselBgImg[currentBg] + ")]"
       }`}
       style={{
@@ -30,7 +30,7 @@ function Courousel() {
       }}
     >
       <div className="absolute size-[100%] z-[11] bg-[#00000090] flex  items-center px-5 md:ps-10">
-        <div className="space-y-4">
+        <div className="space-y-4 container mx-auto">
           <section className="text-white">
             <h1 className="capitalize text-3xl md:text-5xl xl:text-6xl 2xl:text-8xl font-bold text-shadow shadow-black">
               Tims transport services
