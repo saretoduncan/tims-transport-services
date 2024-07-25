@@ -30,7 +30,7 @@ const FeaturesSection = () => {
         <FeaturesCard
           featureCaption="Tim's Transport Services excels in mining logistics and regional transport across Australia, delivering expertise and reliability in every job"
           featureImg={quaryTrack}
-          featureTitle="Mining and Reginal Transport"
+          featureTitle="Mining and Regional Transport"
         />
       </section>
       <section className="flex justify-center">
