@@ -142,7 +142,7 @@ const OurCoresSection = () => {
           />
           <CorevaluesDetailsCard
             iconImg={efficientIcon}
-            title="We observe Efficient"
+            title="We are Efficient"
             caption={
               "Maximizing productivity with state-of-the-art tipper trucks and streamlined"
             }

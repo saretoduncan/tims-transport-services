@@ -1,20 +1,19 @@
 import quaryTrack from "../../assets/quarytrack.webp";
 import transitTruck from "../../assets/transist.webp";
-import civilTruck from "../../assets/civiltracks.webp";
 
 import highWayScannia from "../../assets/highway_truck_sand.webp";
 const FeaturesSection = () => {
   return (
     <>
-      <section className="bg-gray-100 py-16 px-4 2xl:px-0 ">
+      <section className=" py-16 px-4 2xl:px-0 ">
         <div className="grid space-y-2 md:space-y-0 md:grid-cols-2 gap-4 xl:w-[1280px] mx-auto">
           <div className="grid  space-y-2">
             <section className="space-y-2 ">
               <div className="h-2 w-6 bg-orange-500"></div>
               <section>
-                <h4 className="text-3xl font-bold xl:text-4xl">Long Haulage</h4>
+                <h4 className="text-3xl font-bold xl:text-4xl text-gray-800">Long Haulage</h4>
               </section>
-              <section className="">
+              <section className="text-gray-600">
                 <p>
                   Tim's Transport Services offers reliable long-haul trucking
                   across all cities of Australia, providing exceptional service
@@ -39,7 +38,7 @@ const FeaturesSection = () => {
           ></div>
         </div>
       </section>
-      <section className="bg-white py-16 px-4 xl:px-0 ">
+      <section className="bg-gray-800 py-16 px-4 xl:px-0 text-gray-100 ">
         <div className="grid space-y-2 md:space-y-0 md:grid-cols-2 gap-4 xl:w-[1280px] mx-auto">
           <div
             className="bg-cover bg-center bg-no-repeat h-[300px] rounded self-center"
@@ -80,12 +79,12 @@ const FeaturesSection = () => {
             <section className="space-y-2">
               <section>
                 <div className="h-2 w-6 bg-orange-500"></div>
-                <h4 className="text-2xl font-bold capitalize xl:text-4xl">
+                <h4 className="text-2xl font-bold capitalize xl:text-4xl text-gray-800">
                   Mining and Reginal Transport
                 </h4>
               </section>
               <section>
-                <p>
+                <p className="text-gray-600">
                   Tim's Transport Services excels in mining logistics and
                   regional transport across Australia, providing top-tier
                   expertise and reliability for every job. We specialize in

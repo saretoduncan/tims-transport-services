@@ -19,7 +19,7 @@ const Navbar: React.FC<navbarProps> = ({
           <img
             src={logo}
             alt=""
-            className={`${isFullNav? 'lg:size-[100px]': 'lg:size-[180px]' }  size-[80px] bg-gray-100 rounded-full mt-1`}
+            className={`${isFullNav? 'lg:size-[100px] size-[60px]': 'size-[80px] lg:size-[180px]' } ms-2  bg-gray-100 rounded-full mt-1`}
           />
         </section>
         <section className=" hidden lg:flex md:space-x-4 items-center">
@@ -45,13 +45,13 @@ const Navbar: React.FC<navbarProps> = ({
           />
           <PrimaryLink
             linkName={"Call Us Now"}
-            className={"bg-orange-500"}
+            className={"bg-orange-500 text-white"}
             linkTo="tel:+254715691186"
           />
         </section>
         <section className="lg:hidden">
           <button onClick={() => handleSidebarOpenClick()}>
-            <FaBars className="text-orange-500 text-3xl" />
+            <FaBars className="text-orange-500 text-3xl me-2 " />
           </button>
         </section>
       </div>

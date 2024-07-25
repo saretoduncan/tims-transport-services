@@ -11,7 +11,7 @@ const PrimaryLink: React.FC<primaryButtonProp> = ({
   linkTo,
 }) => {
   return (
-    <Link to={linkTo} className={`p-2 font-semibold md:py-2 md:px-4 rounded-md ${className}`}>
+    <Link to={linkTo} className={`p-2 font-semibold md:py-2 md:px-4 rounded-md  ${className}`}>
       {linkName}
     </Link>
   );

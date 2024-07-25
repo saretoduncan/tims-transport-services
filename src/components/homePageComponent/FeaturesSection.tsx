@@ -8,7 +8,7 @@ const FeaturesSection = () => {
   return (
     <div className="space-y-4 mb-4">
       <section className="w-[300px] md:w-[400px]  mx-auto">
-        <h3 className="capitalize text-center text-2xl md:text-4xl font-bold ">
+        <h3 className="capitalize text-center text-2xl md:text-4xl font-bold text-gray-800 ">
           <span className="text-sm md:text-base text-orange-500">
             Efficient
           </span>{" "}

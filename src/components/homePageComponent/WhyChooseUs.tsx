@@ -7,7 +7,7 @@ import { navLinkData } from "../navigation/NavLinkData";
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="bg-gray-100 py-16 px-4 2xl:px-0 ">
+      <section className="bg-gray-800 py-16 px-4 2xl:px-0 text-gray-100">
         <div className="grid space-y-2 md:space-y-0 md:grid-cols-2 gap-4 xl:w-[1280px] mx-auto">
           <div className="grid  space-y-4">
             <section className="space-y-2">
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
           ></div>
         </div>
       </section>
-      <section className="bg-white py-16 px-4 xl:px-0 ">
+      <section className="bg-white py-16 px-4 xl:px-0 text-gray-600">
         <div className="grid space-y-2 md:space-y-0 md:grid-cols-2 gap-4 xl:w-[1280px] mx-auto">
           <div
             className="bg-cover bg-center bg-no-repeat h-[300px] rounded self-center"
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
           <div className="grid  space-y-4 md:self-center">
             <section className="space-y-2">
               <section>
-                <h4 className="text-2xl font-bold xl:text-4xl ">
+                <h4 className="text-2xl font-bold xl:text-4xl text-gray-800">
                   <span>
                     <FaCube />
                   </span>
@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </section>
-      <section className="bg-gray-100 py-16 px-4 xl:px-0 ">
+      <section className="bg-gray-800 py-16 px-4 xl:px-0 text-white ">
         <div className="grid space-y-2 md:space-y-0 md:grid-cols-2 gap-4 xl:w-[1280px] mx-auto">
           <div className="grid  space-y-4 md:self-center">
             <section className="space-y-2">

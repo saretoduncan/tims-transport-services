@@ -20,8 +20,8 @@ const FeaturesCard: React.FC<featuresCardProps> = ({
 
         <figcaption className="px-2 ">
           <div className="w-8 h-1 bg-orange-500"></div>
-          <p className="text-xl font-bold">{featureTitle}</p>
-          <p>{featureCaption}</p>
+          <p className="text-xl font-bold text-gray-800">{featureTitle}</p>
+          <p className="text-gray-600">{featureCaption}</p>
         </figcaption>
       </figure>
     </>
