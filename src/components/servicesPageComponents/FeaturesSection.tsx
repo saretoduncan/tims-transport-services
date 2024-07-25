@@ -11,7 +11,9 @@ const FeaturesSection = () => {
             <section className="space-y-2 ">
               <div className="h-2 w-6 bg-orange-500"></div>
               <section>
-                <h4 className="text-3xl font-bold xl:text-4xl text-gray-800">Long Haulage</h4>
+                <h4 className="text-3xl font-bold xl:text-4xl text-gray-800">
+                  Long Haulage
+                </h4>
               </section>
               <section className="text-gray-600">
                 <p>
@@ -80,7 +82,7 @@ const FeaturesSection = () => {
               <section>
                 <div className="h-2 w-6 bg-orange-500"></div>
                 <h4 className="text-2xl font-bold capitalize xl:text-4xl text-gray-800">
-                  Mining and Reginal Transport
+                  Mining and Regional Transport
                 </h4>
               </section>
               <section>
