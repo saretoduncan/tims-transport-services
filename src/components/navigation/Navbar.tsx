@@ -46,7 +46,7 @@ const Navbar: React.FC<navbarProps> = ({
           <PrimaryLink
             linkName={"Call Us Now"}
             className={"bg-orange-500 text-white"}
-            linkTo="tel:+254715691186"
+            linkTo="tel:+61 416 595 734"
           />
         </section>
         <section className="lg:hidden">

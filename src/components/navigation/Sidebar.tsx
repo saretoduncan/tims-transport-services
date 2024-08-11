@@ -45,13 +45,12 @@ const Sidebar: React.FC<sideNavProps> = ({
             handleSideNav={handleSideNav}
           />
         </div>
-      </div>{" "}
+      </div>
+
       <PrimaryLink
         linkName={"Call Us Now"}
-        className={
-          "bg-orange-500 text-white w-full text-center mb-4 "
-        }
-        linkTo="tel:+254715691186"
+        className={"bg-orange-500 text-white w-full text-center mb-14 "}
+        linkTo="tel:+61 416 595 734"
       />
     </div>
   );
